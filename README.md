@@ -47,6 +47,8 @@ https://git-scm.com/download
 - `git remote -v` // verifica os repositorios ativos
 - `git vim` // acessa codigo do arquivo para editar
 - `git diff` // mostra o que foi alterado
+- `cat "Arquivo"` // mostra o conteudo do arquivo
+- `rm -rf "Arquivo/Pasta"` // deleta o arquivo ou pasta
 
 # Detailed
 - `add "File"` // prepara arquivo para adicionar na branch "Linha do Tempo"
@@ -57,8 +59,15 @@ https://git-scm.com/download
 - `q` // sair do comando "git log"
 - `clear` // limpar terminal git
 - `ls -al` // lista todos arquivos dentro da branch "Linha do Tempo"
+- `git log -"NUMERO"` // lista uma quantidade especifica de commit realizado
 - `git branch -d "Branch"` // deletar as linhas do tempo
 - `git push -u origin master` // enviar arquivos para o repositorio "GitHub"
 - `git config credential.helper store` // salva o login do GitHub toda vez que executa um "git push"
 - `git checkout -b "NOME DA BRANCH"` // cria a branch e faz sai da branch que está automático
 - `git checkout "ID LOG" -- "NOME DO ARQUIVO"` // recupera arquivos naquela determinada linha do tempo
+- `Shift + Arrow Down + :wq` // sair da edição do arquivo 
+
+
+# Libraries
+- `yarn add "NOME DA BIBLIOTECA"` // instala uma biblioteca especifica
+- `touch .gitignore"` // ignora as pastas rastreadas adicionando o caminho delas que foram criadas pela instalação da biblioteca
