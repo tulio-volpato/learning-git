@@ -1,7 +1,7 @@
-# INSTALATION
+# Instalation
 https://git-scm.com/download
 
-# ENVIROMENT
+# Enviroment
 - [x] Iniciar linha do tempo de seu projeto. (Init)
 
 - [x] Criar arquivos direto no seu projeto. (Touch)
@@ -29,7 +29,7 @@ https://git-scm.com/download
 - [] Recuperar algo deletado.
 
 
-# GENERAL
+# General
 - `git init` // inicia a linha do tempo
 - `touch` // cria arquivos na pasta do projeto local
 - `git add` // adiciona ou atualiza mudanças para irem para a linha do tempoo
@@ -41,18 +41,22 @@ https://git-scm.com/download
 - `git checkout` // manipula as linhas do tempo
 - `git merge` // unir linhas do tempo
 - `git push` // envia alterações locais para o repositório remoto
-- `git clone` // clonar um projeto / repositório
+- `git clone "LINK DO REPOSITÓRIO"` // clonar um projeto / repositório
 - `git pull` // puxa do repositório remoto
 - `git remote add origin "LINK DO REPOSITÓRIO"` // subir projeto na nuvem "GitHub"
 - `git remote -v` // verifica os repositorios ativos
 
-# DETAILED
+# Detailed
 - `add "File"` // prepara arquivo para adicionar na branch "Linha do Tempo"
 - `add .` // prepara TODOS arquivos para adicionar na branch "Linha do Tempo"
 - `git commit "Arquivo" -m "Mensagem"` // adiciona o arquivo especifico na branch "Linha do Tempo"
 - `git commit . -m "Mensagem"` // adiciona o arquivo especifico na branch "Linha do Tempo"
+- `git commit -am "Mensagem"` // prepara e adiciona o arquivo especifico na branch "Linha do Tempo"
 - `q` // sair do comando "git log"
 - `clear` // limpar terminal git
 - `ls -al` // lista todos arquivos dentro da branch "Linha do Tempo"
 - `git branch -d "Branch"` // deletar as linhas do tempo
 - `git push -u origin master` // enviar arquivos para o repositorio "GitHub"
+- `git config credential.helper store` // salva o login do GitHub toda vez que executa um "git push"
+- `git checkout -b "NOME DA BRANCH"` // cria a branch e faz sai da branch que está automático
+- `git checkout "ID LOG" -- "NOME DO ARQUIVO"` // recupera arquivos naquela determinada linha do tempo
