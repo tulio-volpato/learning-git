@@ -45,6 +45,8 @@ https://git-scm.com/download
 - `git pull` // puxa do repositório remoto
 - `git remote add origin "LINK DO REPOSITÓRIO"` // subir projeto na nuvem "GitHub"
 - `git remote -v` // verifica os repositorios ativos
+- `git vim` // acessa codigo do arquivo para editar
+- `git diff` // mostra o que foi alterado
 
 # Detailed
 - `add "File"` // prepara arquivo para adicionar na branch "Linha do Tempo"
