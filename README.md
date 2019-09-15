@@ -1,4 +1,4 @@
-# LINK TO INSTALATION
+# INSTALATION
 https://git-scm.com/download
 
 # ENVIROMENT
@@ -18,7 +18,7 @@ https://git-scm.com/download
 
 - [x] Colocar seu projeto na nuvem "GitHub". (Criar repositorio)
 
-- [x] Pegar um projeto já iniciado, para trabalhar com o time. (Clone)
+- [x] Pegar um projeto já iniciado, para trabalhar com o time. (Fork; Clone)
 
 - [] Resolver um conflito.
 
@@ -43,6 +43,8 @@ https://git-scm.com/download
 - `git push` // envia alterações locais para o repositório remoto
 - `git clone` // clonar um projeto / repositório
 - `git pull` // puxa do repositório remoto
+- `git remote add origin "LINK DO REPOSITÓRIO"` // subir projeto na nuvem "GitHub"
+- `git remote -v` // verifica os repositorios ativos
 
 # DETAILED
 - `add "File"` // prepara arquivo para adicionar na branch "Linha do Tempo"
@@ -53,3 +55,4 @@ https://git-scm.com/download
 - `clear` // limpar terminal git
 - `ls -al` // lista todos arquivos dentro da branch "Linha do Tempo"
 - `git branch -d "Branch"` // deletar as linhas do tempo
+- `git push -u origin master` // enviar arquivos para o repositorio "GitHub"
