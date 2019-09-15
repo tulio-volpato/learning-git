@@ -20,13 +20,13 @@ https://git-scm.com/download
 
 - [x] Pegar um projeto já iniciado, para trabalhar com o time. (Fork; Clone)
 
-- [] Resolver um conflito.
+- [x] Resolver um conflito.
 
-- [] Antes de enviar a resolução, precisamos atualizar o projeto local.
+- [x] Antes de enviar a resolução, precisamos atualizar o projeto local.
 
-- [] Voltar um arquivo para um determinado momento da linha do tempo.
+- [x] Voltar um arquivo para um determinado momento da linha do tempo.
 
-- [] Recuperar algo deletado.
+- [x] Recuperar algo deletado.
 
 
 # General
