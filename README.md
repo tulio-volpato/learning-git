@@ -49,6 +49,9 @@ https://git-scm.com/download
 - `git diff` // mostra o que foi alterado
 - `cat "Arquivo"` // mostra o conteudo do arquivo
 - `rm -rf "Arquivo/Pasta"` // deleta o arquivo ou pasta
+- `git remote add upstrem "LINK DO REPOSITÓRIO"` // subir projeto original na nuvem "GitHub" para realizar atualizações
+- `git fetch upstream` // puxar todos commit do repositorio original para sincronizar com repositorio realizado "fork" utilizando "clone"
+- `git merge upstream/master` // sincronizar com o repositorio original realizado "fork" deste repositorio utilizando "clone"
 
 # Detailed
 - `add "File"` // prepara arquivo para adicionar na branch "Linha do Tempo"
