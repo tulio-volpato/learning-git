@@ -1,7 +1,7 @@
 # Instalation
 https://git-scm.com/download
 
-# Enviroment
+# Environment
 - [x] Iniciar linha do tempo de seu projeto. (Init)
 
 - [x] Criar arquivos direto no seu projeto. (Touch)
